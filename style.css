@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+.running-text-wrapper {
+  position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #13f3a5;
+  z-index: 1000;
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+.running-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: bold;
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header-kiri,
+.header-tengah,
+.header-kanan {
+  flex: 1;
+  text-align: center;
+}
+
+.header-kiri {
+  text-align: left;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+
+nav {
+  background: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.main-news {
+  float: left;
+  width: 65%;      
+  background: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.main-news img {
+  width: 70%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.other-news {
+  float: right;
+  width: 30%;    
+  box-sizing: border-box;
+}
+
+.news-card {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  
+}
+
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.gambar-kecil{
+  
+    width: 600px;
+    height: auto;
+}
+
+.cill-logo{
+  
+  width: 600px;
+  height: auto;
+}
+
+.small-logo{
+  
+  width: 600px;
+  height: auto;
+}
+
+
